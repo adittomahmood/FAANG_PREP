@@ -1,0 +1,34 @@
+{
+  "phases": [
+    {
+      "id": "phase1",
+      "title": "Phase 1: Foundations (Months 1-3)",
+      "shortTitle": "Foundations",
+      "description": "Build a solid foundation in Java programming, data structures, and basic algorithms."
+    },
+    {
+      "id": "phase2",
+      "title": "Phase 2: Intermediate (Months 4-6)",
+      "shortTitle": "Intermediate",
+      "description": "Build proficiency in graphs, trees, and introduce dynamic programming."
+    },
+    {
+      "id": "phase3",
+      "title": "Phase 3: Advanced (Months 7-9)",
+      "shortTitle": "Advanced",
+      "description": "Master advanced algorithms, dynamic programming, and system design fundamentals."
+    },
+    {
+      "id": "phase4",
+      "title": "Phase 4: Elite (Months 10-12)",
+      "shortTitle": "Elite",
+      "description": "Prepare for top-tier contests and master system design principles."
+    },
+    {
+      "id": "phase5",
+      "title": "Phase 5: FAANG Ready (Final Sprint)",
+      "shortTitle": "FAANG Ready",
+      "description": "Company-specific preparation and interview simulation."
+    }
+  ]
+}

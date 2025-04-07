@@ -1,0 +1,309 @@
+{
+  "id": "phase4",
+  "title": "Phase 4: Elite System Design & Software Engineering (Months 10-12)",
+  "description": "Master system design principles and software engineering practices for top-tier technical interviews and real-world applications.",
+  "modules": [
+    {
+      "title": "Days 271-285: System Design Fundamentals",
+      "topics": [
+        "Introduction to system design principles",
+        "Scalability concepts: vertical vs. horizontal scaling",
+        "CAP theorem and distributed systems basics",
+        "Load balancing strategies",
+        "Caching mechanisms and strategies",
+        "Database selection criteria: SQL vs. NoSQL",
+        "Data partitioning and sharding techniques",
+        "Content delivery networks (CDNs)"
+      ],
+      "practice": [
+        "Analyze architecture of popular web applications",
+        "Create high-level architecture diagrams",
+        "Design a simple URL shortener service",
+        "Practice calculating capacity estimation",
+        "Compare different database options for specific use cases"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours daily",
+        "breakdown": [
+          "1-2 hours studying system design principles",
+          "1-2 hours working on basic design problems",
+          "1 hour reviewing architectures of existing systems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "System Design Interview (Alex Xu)",
+          "description": "Comprehensive guide to system design interviews",
+          "link": "https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "🎬",
+          "title": "System Design Fundamentals Playlist",
+          "description": "Video explanations of system design concepts",
+          "link": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
+          "linkText": "System Design Playlist"
+        },
+        {
+          "icon": "🎬",
+          "title": "System Design Basics by Gaurav Sen",
+          "description": "Foundational system design concepts explained",
+          "link": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
+          "linkText": "System Design Basics"
+        }
+      ]
+    },
+    {
+      "title": "Days 286-300: Design Patterns & OOP Principles",
+      "topics": [
+        "Object-oriented programming principles (SOLID)",
+        "Creational patterns: Singleton, Factory, Builder, Prototype",
+        "Structural patterns: Adapter, Bridge, Composite, Decorator",
+        "Behavioral patterns: Observer, Strategy, Command, Iterator",
+        "MVC architecture and its variations",
+        "Dependency injection techniques",
+        "Code organization and modularization",
+        "Design patterns in real-world applications"
+      ],
+      "practice": [
+        "Implement 1-2 design patterns daily in your preferred language",
+        "Refactor existing code using appropriate design patterns",
+        "Create a small application demonstrating multiple patterns",
+        "Analyze popular frameworks/libraries for pattern usage",
+        "Conduct code reviews focusing on design pattern implementation"
+      ],
+      "timeCommitment": {
+        "total": "3-5 hours daily",
+        "breakdown": [
+          "1 hour studying design pattern theory",
+          "2-3 hours implementing patterns in code",
+          "1 hour analyzing real-world pattern applications"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Head First Design Patterns",
+          "description": "Visual approach to understanding design patterns",
+          "link": "https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "🎬",
+          "title": "Design Patterns in Java by Derek Banas",
+          "description": "Clear explanations of common design patterns with Java implementation",
+          "link": "https://www.youtube.com/playlist?list=PLF206E906175C7E07",
+          "linkText": "Design Patterns Tutorial"
+        },
+        {
+          "icon": "💻",
+          "title": "Refactoring Guru",
+          "description": "Interactive guide to design patterns and refactoring",
+          "link": "https://refactoring.guru/design-patterns",
+          "linkText": "Refactoring Guru"
+        }
+      ]
+    },
+    {
+      "title": "Days 301-315: Concurrency & Multithreading",
+      "topics": [
+        "Processes vs. threads fundamentals",
+        "Thread synchronization mechanisms",
+        "Locks, semaphores, and mutexes",
+        "Deadlocks and race conditions",
+        "Thread pools and executor services",
+        "Concurrent data structures",
+        "Asynchronous programming patterns",
+        "Non-blocking algorithms"
+      ],
+      "practice": [
+        "Implement basic thread synchronization problems",
+        "Create producer-consumer solutions",
+        "Solve classic concurrency problems (dining philosophers, readers-writers)",
+        "Implement thread-safe data structures",
+        "Measure performance of concurrent vs. sequential operations"
+      ],
+      "timeCommitment": {
+        "total": "4-5 hours daily",
+        "breakdown": [
+          "1-2 hours studying concurrency theory",
+          "2-3 hours implementing concurrency problems",
+          "1 hour analyzing and debugging multithreaded code"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Java Concurrency in Practice",
+          "description": "Comprehensive guide to Java concurrency",
+          "link": "https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "🎬",
+          "title": "Multithreading and Concurrency by Defog Tech",
+          "description": "Deep dive into Java concurrency and multithreading",
+          "link": "https://www.youtube.com/playlist?list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6",
+          "linkText": "Concurrency Tutorial"
+        },
+        {
+          "icon": "💻",
+          "title": "Concurrent Programming in Java",
+          "description": "Coursera course on parallel, concurrent, and distributed programming",
+          "link": "https://www.coursera.org/learn/concurrent-programming-in-java",
+          "linkText": "Coursera Course"
+        }
+      ]
+    },
+    {
+      "title": "Days 316-330: Distributed Systems",
+      "topics": [
+        "Distributed systems architecture principles",
+        "Consistency models and eventual consistency",
+        "Consensus algorithms (Paxos, Raft)",
+        "Distributed caching strategies",
+        "Message queues and event-driven architecture",
+        "Microservices communication patterns",
+        "Service discovery and registration",
+        "Fault tolerance and resilience patterns"
+      ],
+      "practice": [
+        "Design a distributed key-value store",
+        "Implement a simple consensus algorithm",
+        "Create a basic microservices application",
+        "Develop a distributed logging system",
+        "Practice handling network partitions and failures"
+      ],
+      "timeCommitment": {
+        "total": "4-6 hours daily",
+        "breakdown": [
+          "2 hours studying distributed systems theory",
+          "2-3 hours implementing distributed components",
+          "1 hour analyzing distributed system designs"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Designing Data-Intensive Applications",
+          "description": "Comprehensive guide to distributed systems design",
+          "link": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "🎬",
+          "title": "Distributed Systems by Martin Kleppmann",
+          "description": "Theoretical foundation of distributed systems concepts",
+          "link": "https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB",
+          "linkText": "Distributed Systems Lectures"
+        },
+        {
+          "icon": "💻",
+          "title": "MIT 6.824: Distributed Systems",
+          "description": "Advanced course on distributed systems with labs",
+          "link": "https://pdos.csail.mit.edu/6.824/",
+          "linkText": "MIT Course"
+        }
+      ]
+    },
+    {
+      "title": "Days 331-345: System Design Case Studies I",
+      "topics": [
+        "End-to-end system design methodology",
+        "Requirements gathering and analysis",
+        "Back-of-the-envelope calculations",
+        "API design and documentation",
+        "Database schema design",
+        "Case studies: URL shortener, chat system, video streaming"
+      ],
+      "practice": [
+        "Design one complete system per day",
+        "Create detailed architecture diagrams",
+        "Write API specifications and documentation",
+        "Design database schemas for each system",
+        "Present and defend your design decisions"
+      ],
+      "timeCommitment": {
+        "total": "4-6 hours daily",
+        "breakdown": [
+          "1 hour studying case study requirements",
+          "2-3 hours designing and documenting systems",
+          "1-2 hours reviewing and refining designs"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "💻",
+          "title": "Grokking the System Design Interview",
+          "description": "Step-by-step approach to system design problems",
+          "link": "https://www.educative.io/courses/grokking-the-system-design-interview",
+          "linkText": "Course Link"
+        },
+        {
+          "icon": "🎬",
+          "title": "System Design Case Studies by Tech Dummies",
+          "description": "Real-world system design examples of popular applications",
+          "link": "https://www.youtube.com/playlist?list=PLkQkbY7JNJu-Glqx83FkOZMCQ0DzA1otr",
+          "linkText": "System Design Case Studies"
+        },
+        {
+          "icon": "📚",
+          "title": "System Design Interview Guide",
+          "description": "Comprehensive collection of system design interview questions",
+          "link": "https://github.com/donnemartin/system-design-primer",
+          "linkText": "GitHub Repository"
+        }
+      ]
+    },
+    {
+      "title": "Days 346-360: System Design Case Studies II",
+      "topics": [
+        "Advanced system design considerations",
+        "Designing for high availability and fault tolerance",
+        "Designing for low latency and high throughput",
+        "Security considerations in system design",
+        "Cost optimization strategies",
+        "Case studies: social media platform, payment system, e-commerce platform"
+      ],
+      "practice": [
+        "Design complex systems with multiple components",
+        "Create detailed data flow diagrams",
+        "Design for specific non-functional requirements",
+        "Conduct failure mode analysis",
+        "Practice explaining tradeoffs in design decisions"
+      ],
+      "timeCommitment": {
+        "total": "5-7 hours daily",
+        "breakdown": [
+          "1-2 hours researching advanced design concepts",
+          "3-4 hours designing complex systems",
+          "1 hour practicing design presentations"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "System Design Interview Vol. 2 (Alex Xu)",
+          "description": "Advanced system design interview questions",
+          "link": "https://www.amazon.com/System-Design-Interview-Insiders-Guide/dp/1736049119",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "🎬",
+          "title": "Software Architecture by Mark Richards",
+          "description": "Modern architectural patterns and best practices",
+          "link": "https://www.youtube.com/watch?v=x2-rSnhpw0g",
+          "linkText": "Software Architecture Fundamentals"
+        },
+        {
+          "icon": "💻",
+          "title": "ByteByteGo System Design",
+          "description": "Interactive system design scenarios with visualizations",
+          "link": "https://bytebytego.com/",
+          "linkText": "ByteByteGo"
+        }
+      ]
+    }
+  ]
+}

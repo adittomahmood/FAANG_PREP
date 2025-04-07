@@ -1,0 +1,341 @@
+{
+  "id": "phase1",
+  "title": "Phase 1: Foundations (Months 1-3)",
+  "description": "Build a solid foundation in Java programming, data structures, and basic algorithms.",
+  "modules": [
+    {
+      "title": "Days 1-10: Java Basics & IDE Setup",
+      "topics": [
+        "Java syntax, primitive and reference data types",
+        "Control structures (if/else, loops, switch statements)",
+        "Setting up IntelliJ IDEA with optimal configurations",
+        "Working with arrays, Strings, and StringBuilder",
+        "Exception handling best practices",
+        "Java I/O operations and file handling"
+      ],
+      "practice": [
+        "Solve 5 beginner problems daily on LeetCode (Arrays, Strings, Basic math)",
+        "Create a custom utility class with 10+ methods for common string/array operations",
+        "Implement a simple library management system with classes for books, users, etc.",
+        "Complete all exercises in \"Java: The Complete Reference\" Ch. 1-5"
+      ],
+      "timeCommitment": {
+        "total": "2-3 hours",
+        "breakdown": ["1 hour learning theory", "1-2 hours practicing problems"]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Java Documentation",
+          "description": "Official Java documentation and tutorials",
+          "link": "https://docs.oracle.com/en/java/javase/17/docs/api/",
+          "linkText": "Official Java Docs"
+        },
+        {
+          "icon": "📝",
+          "title": "Core Java Practice Problems",
+          "description": "50 beginner-level Java exercises",
+          "link": "https://www.w3resource.com/java-exercises/",
+          "linkText": "Java Basic Exercises"
+        },
+        {
+          "icon": "🎬",
+          "title": "Java Programming Playlist",
+          "description": "Comprehensive video tutorials for beginners",
+          "link": "https://www.youtube.com/playlist?list=PLNOYjR4jvOK-iMttsD90WKkS9foRgTDhf",
+          "linkText": "Java Fundamentals Playlist"
+        }
+      ]
+    },
+    {
+      "title": "Days 11-20: Object-Oriented Programming & Java Collections",
+      "topics": [
+        "Advanced OOP: inheritance, encapsulation, polymorphism",
+        "Interface vs Abstract class implementation patterns",
+        "Java Collections Framework architecture",
+        "Performance characteristics of ArrayList, LinkedList, Vector",
+        "HashMap, HashSet, TreeMap, TreeSet implementation details",
+        "Iterators, Comparators, and functional interfaces",
+        "Java Generics and type-safety"
+      ],
+      "practice": [
+        "Solve 5 medium-difficulty problems using Collections (HashMap frequency problems, etc.)",
+        "Create a custom data structure that extends/implements Java Collections",
+        "Compare time complexity of operations between different collection types",
+        "Mini-project: Build a contact management system using appropriate collections"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours practicing problems",
+          "1 hour implementing mini-projects"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Java OOP",
+          "description": "All the concepts of JAVA OOP",
+          "link": "https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk",
+          "linkText": "Video Link"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode HashMap/HashSet Problems",
+          "description": "Two Sum, Group Anagrams, etc.",
+          "link": "https://leetcode.com/tag/hash-table/",
+          "linkText": "Hash Table Problems"
+        }
+      ]
+    },
+    {
+      "title": "Days 21-30: Recursion & Backtracking",
+      "topics": [
+        "Recursion fundamentals and the call stack",
+        "Base cases vs. recursive cases",
+        "Head recursion vs. tail recursion",
+        "Recursive time/space complexity analysis",
+        "Backtracking principles and state management",
+        "Memoization techniques for optimization",
+        "Common recursion patterns in interviews"
+      ],
+      "practice": [
+        "Solve 2-3 recursion problems daily (increasing difficulty)",
+        "Implement classic problems: Tower of Hanoi, N-Queens, Sudoku solver",
+        "Generate combinations, permutations, and power sets",
+        "Create a maze solver using DFS backtracking",
+        "Debug and trace recursive calls using IDE breakpoints"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "2-3 hours practicing recursive problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Introduction to Algorithms (CLRS)",
+          "description": "Chapter on Recursion and Backtracking",
+          "link": "https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X/",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Recursion I & II Cards",
+          "description": "Structured progression of recursion problems",
+          "link": "https://leetcode.com/explore/learn/card/recursion-i/",
+          "linkText": "Recursion I & II"
+        },
+        {
+          "icon": "🎬",
+          "title": "Recursion and Backtracking Playlist",
+          "description": "Visual explanations of recursion concepts",
+          "link": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY",
+          "linkText": "Recursion Playlist"
+        }
+      ]
+    },
+    {
+      "title": "Days 31-40: Basic Data Structures & Algorithms",
+      "topics": [
+        "Time and space complexity (Big O notation)",
+        "Linear data structures: Arrays and dynamic arrays",
+        "Linked lists (singly, doubly, circular)",
+        "Stack and Queue implementations and applications",
+        "Basic searching algorithms (linear, binary search)",
+        "Elementary sorting algorithms (bubble, insertion, selection)",
+        "Java implementation of custom data structures",
+        "Number Theory",
+        "Greedy Algorithm"
+      ],
+      "practice": [
+        "Implement linked list and all operations from scratch",
+        "Build stack and queue using both arrays and linked lists",
+        "Solve LeetCode problems involving basic data structures",
+        "Implement binary search and analyze its efficiency",
+        "Compare performance of different sorting algorithms",
+        "Complete array manipulation problems (rotation, rearrangement)"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours implementing data structures",
+          "1 hour solving algorithm problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Data Structures Easy to Advanced Course",
+          "description": "Comprehensive data structures tutorial",
+          "link": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+          "linkText": "FreeCodeCamp DS Tutorial"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Arrays & Linked Lists Problems",
+          "description": "Practice fundamental data structure operations",
+          "link": "https://leetcode.com/tag/array/",
+          "linkText": "Array Problems"
+        },
+        {
+          "icon": "🎬",
+          "title": "Algorithms Visualization",
+          "description": "Visual representation of algorithms",
+          "link": "https://visualgo.net/en",
+          "linkText": "VisuAlgo"
+        }
+      ]
+    },
+    {
+      "title": "Days 41-50: Advanced Data Structures",
+      "topics": [
+        "Heap data structure and heap operations",
+        "Priority queues and implementations",
+        "Hash tables: collision resolution techniques"
+      ],
+      "practice": [
+        "Build a min/max heap from scratch",
+        "Implement a priority queue using a heap",
+        "Create a custom hash table with collision handling",
+        "Solve 3-5 tree problems daily on LeetCode"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours implementing advanced data structures",
+          "1 hour solving related problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Tree Data Structure Tutorial",
+          "description": "Comprehensive guide on tree structures",
+          "link": "https://www.geeksforgeeks.org/tree-data-structure/",
+          "linkText": "GeeksforGeeks Tree Tutorial"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Tree Problems",
+          "description": "Collection of tree-related challenges",
+          "link": "https://leetcode.com/tag/tree/",
+          "linkText": "Tree Problems"
+        },
+        {
+          "icon": "🎬",
+          "title": "Advanced Data Structures Playlist",
+          "description": "In-depth videos on complex data structures",
+          "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf",
+          "linkText": "MIT OCW Advanced Data Structures"
+        }
+      ]
+    },
+    {
+      "title": "Days 51-60: Sorting & Searching Algorithms",
+      "topics": [
+        "Divide and conquer algorithm paradigm",
+        "Merge sort implementation and analysis",
+        "Quick sort and partitioning strategies",
+        "Heap sort and its relationship to priority queues",
+        "Counting sort, radix sort, and bucket sort",
+        "Advanced binary search variations",
+        "String searching algorithms (KMP, Rabin-Karp)"
+      ],
+      "practice": [
+        "Implement all major sorting algorithms from scratch",
+        "Compare performance characteristics with different input sizes",
+        "Solve problems requiring custom sorting logic",
+        "Apply binary search to solve various problems",
+        "Implement string matching algorithms",
+        "Complete 3-5 sorting/searching problems on LeetCode"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "2-3 hours implementing algorithms and solving problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Sorting Algorithms Tutorial",
+          "description": "Detailed explanation of sorting techniques",
+          "link": "https://www.geeksforgeeks.org/sorting-algorithms/",
+          "linkText": "GeeksforGeeks Sorting Tutorial"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Search Problems",
+          "description": "Collection of searching challenges",
+          "link": "https://leetcode.com/tag/binary-search/",
+          "linkText": "Binary Search Problems"
+        },
+        {
+          "icon": "🎬",
+          "title": "Sorting Algorithms Visualization",
+          "description": "Visual comparison of sorting algorithms",
+          "link": "https://www.toptal.com/developers/sorting-algorithms",
+          "linkText": "Sorting Visualizations"
+        }
+      ]
+    },
+    {
+      "title": "Days 61-90: Phase 1 Review & Advanced Problem Solving",
+      "topics": [
+        "Comprehensive review of all data structures",
+        "Algorithm selection strategies for different problems",
+        "Time and space complexity optimization techniques",
+        "Problem-solving patterns and frameworks",
+        "Mixed problems combining multiple concepts",
+        "Mock interview preparation and techniques",
+        "Code review best practices and refactoring"
+      ],
+      "practice": [
+        "Solve mixed problems that require multiple data structures",
+        "Complete timed coding challenges to improve speed",
+        "Participate in mock interviews with peers",
+        "Review and optimize previous solutions",
+        "Create a personal DSA cheat sheet for quick reference",
+        "Develop a systematic approach to problem-solving"
+      ],
+      "timeCommitment": {
+        "total": "4-5 hours",
+        "breakdown": [
+          "1 hour reviewing concepts",
+          "2-3 hours solving mixed problems",
+          "1 hour mock interviews or code reviews"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Cracking the Coding Interview",
+          "description": "Comprehensive interview preparation book",
+          "link": "https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Contest Problems",
+          "description": "Weekly coding challenges",
+          "link": "https://leetcode.com/contest/",
+          "linkText": "LeetCode Contests"
+        },
+        {
+          "icon": "🎬",
+          "title": "System Design Primer",
+          "description": "Introduction to system design concepts",
+          "link": "https://github.com/donnemartin/system-design-primer",
+          "linkText": "GitHub Repository"
+        }
+      ]
+    }
+  ]
+}

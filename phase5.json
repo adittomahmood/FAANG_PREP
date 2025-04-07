@@ -1,0 +1,196 @@
+{
+  "id": "phase5",
+  "title": "Phase 5: FAANG Ready (Final Sprint)",
+  "description": "Company-specific preparation and interview simulation.",
+  "modules": [
+    {
+      "title": "Company-Specific Focus Areas",
+      "topics": [
+        "Company-specific interview formats and evaluation criteria",
+        "Leadership principles and behavioral preparation",
+        "Targeted algorithm patterns for each company",
+        "System design requirements per company",
+        "Mock interview practice with company-specific feedback"
+      ],
+      "practice": [
+        "Target company-specific LeetCode problems",
+        "Complete mock interviews focusing on each company's style",
+        "Review detailed interview experiences on Glassdoor/Blind",
+        "Practice answering behavioral questions using the STAR method"
+      ],
+      "timeCommitment": {
+        "total": "4-6 hours",
+        "breakdown": [
+          "2-3 hours on company-specific technical preparation",
+          "1-2 hours on behavioral interview practice",
+          "1 hour on mock interviews"
+        ]
+      },
+      "companyFocus": {
+        "amazon": [
+          "Leadership Principles (14 principles) and behavioral preparation",
+          "OOP design and system design with microservices",
+          "Graph algorithms and BFS/DFS applications",
+          "Dynamic programming optimization problems"
+        ],
+        "google": [
+          "Advanced algorithms and data structures",
+          "System design with scale considerations",
+          "Dynamic programming and recursion",
+          "Custom data structure implementation"
+        ],
+        "meta": [
+          "Graph algorithms (social network applications)",
+          "JavaScript/React knowledge (for frontend roles)",
+          "Behavioral questions focusing on impact and growth",
+          "System design for real-time applications"
+        ],
+        "apple": [
+          "User experience and design considerations",
+          "iOS/macOS development fundamentals (for Apple-specific roles)",
+          "Performance optimization and memory management",
+          "Security and privacy-focused system design"
+        ],
+        "netflix": [
+          "Distributed systems and high-availability architecture",
+          "Streaming algorithms and content delivery networks",
+          "A/B testing and experimentation frameworks",
+          "Machine learning recommendation systems"
+        ]
+      },
+      "interviewStyles": {
+        "amazon": "Heavy emphasis on behavioral questions based on Leadership Principles",
+        "google": "Emphasis on algorithmic efficiency and optimal solutions",
+        "meta": "Focus on coding fluency and practical problem-solving",
+        "apple": "Strong emphasis on clarity of thought and user-centered thinking",
+        "netflix": "Focus on senior-level architectural thinking and systems knowledge"
+      },
+      "keyProblems": {
+        "amazon": [
+          "Two Sum",
+          "LRU Cache",
+          "Merge K Sorted Lists",
+          "Word Ladder"
+        ],
+        "google": [
+          "Merge Intervals",
+          "Word Break",
+          "Longest Substring Without Repeating Characters",
+          "LRU Cache"
+        ],
+        "meta": [
+          "Valid Palindrome",
+          "Binary Tree Level Order Traversal",
+          "Clone Graph",
+          "Product of Array Except Self"
+        ],
+        "apple": [
+          "Trapping Rain Water",
+          "Valid Parentheses",
+          "Design File System",
+          "Decode String"
+        ],
+        "netflix": [
+          "Design Recommendation System",
+          "Rate Limiter",
+          "Consistent Hashing",
+          "Design Video Streaming Service"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Cracking the Coding Interview",
+          "description": "Company-specific interview preparation sections",
+          "link": "https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "📚",
+          "title": "System Design Interview: An Insider's Guide",
+          "description": "For system design preparation",
+          "link": "https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "📚",
+          "title": "Designing Data-Intensive Applications",
+          "description": "For senior-level system design",
+          "link": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "💻",
+          "title": "Pramp/Interviewing.io",
+          "description": "Mock interview platforms with peer feedback",
+          "link": "https://www.pramp.com/",
+          "linkText": "Pramp"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Premium",
+          "description": "Company-tagged questions and mock interviews",
+          "link": "https://leetcode.com/premium/",
+          "linkText": "LeetCode Premium"
+        },
+        {
+          "icon": "💻",
+          "title": "AlgoExpert",
+          "description": "Curated list of common interview questions with video explanations",
+          "link": "https://www.algoexpert.io/product",
+          "linkText": "AlgoExpert"
+        },
+        {
+          "icon": "🎬",
+          "title": "FAANG Interview Experiences by TechLead",
+          "description": "Insights into the interview process at top tech companies",
+          "link": "https://www.youtube.com/playlist?list=PL4Q5vDxZuJ62DW3jQ0ZL-qWnYl3NfKr1C",
+          "linkText": "FAANG Interview Experiences"
+        },
+        {
+          "icon": "🎬",
+          "title": "Amazon Leadership Principles by Dan Croitor",
+          "description": "Behavioral interview preparation specific to Amazon's principles",
+          "link": "https://www.youtube.com/playlist?list=PL7FuXIUYtZmjYli-AO1_8vrZnl0ZyJbFY",
+          "linkText": "Amazon Leadership Principles"
+        },
+        {
+          "icon": "🎬",
+          "title": "Google Interview Questions by Clément Mihailescu",
+          "description": "Walkthrough of real Google interview questions and approaches",
+          "link": "https://www.youtube.com/playlist?list=PLNKa8O_w8_XI0veJCeGRFIhYpGFdRdBai",
+          "linkText": "Google Interview Questions"
+        },
+        {
+          "icon": "🎬",
+          "title": "System Design Mock Interviews by Jackson Gabbard",
+          "description": "Former Facebook interviewer conducts system design interviews",
+          "link": "https://www.youtube.com/playlist?list=PLrT2tZ9JRrf6oF6k0pJ8h7GKLzLbxA2wT",
+          "linkText": "System Design Mock Interviews"
+        }
+      ],
+      "finalWeekChecklist": [
+        "Complete 3-5 full mock interviews for each target company",
+        "Review all common algorithms and data structures",
+        "Practice explaining your thought process clearly",
+        "Prepare 5-7 strong behavioral stories that can adapt to different questions",
+        "Research recent news about your target companies",
+        "Prepare thoughtful questions to ask your interviewers",
+        "Establish a pre-interview routine (sleep, food, mental preparation)",
+        "Test your technical setup for virtual interviews",
+        "Practice whiteboard coding if interviews will be in-person"
+      ],
+      "postInterviewStrategy": [
+        "Send thank-you notes to interviewers within 24 hours",
+        "Document all questions asked for future reference",
+        "Reflect on your performance and areas for improvement",
+        "Have a follow-up plan if you don't hear back within the expected timeframe",
+        "Continue practicing while waiting for results"
+      ]
+    }
+  ],
+  "durationGuidelines": {
+    "recommendedTimeframe": "3-4 weeks of focused preparation",
+    "dailyCommitment": "4-6 hours"
+  }
+}

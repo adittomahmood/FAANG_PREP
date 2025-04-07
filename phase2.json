@@ -1,0 +1,305 @@
+{
+  "id": "phase2",
+  "title": "Phase 2: Intermediate Preparation (Months 4-6)",
+  "description": "Targeted preparation for FAANG interviews combining intermediate algorithms with company-specific focus",
+  "modules": [
+    {
+      "title": "Days 91-105: Graph Theory Fundamentals",
+      "topics": [
+        "Graph theory basics (vertices, edges, directed vs undirected)",
+        "Graph representations: adjacency list vs. adjacency matrix",
+        "Graph properties: connectivity, cycles, paths",
+        "Implementing a Graph class in Java",
+        "Basic graph traversal patterns",
+        "Graph problem-solving approaches"
+      ],
+      "practice": [
+        "Implement a generic Graph class with both representation types",
+        "Convert between adjacency list and matrix representations",
+        "Solve 3 basic graph problems daily",
+        "Create a graph visualization tool",
+        "Practice identifying graph structures in real-world problems"
+      ],
+      "timeCommitment": {
+        "total": "2-3 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours implementing graph classes and solving basic problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Graph Theory Tutorial",
+          "description": "Comprehensive guide on graph fundamentals",
+          "link": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/",
+          "linkText": "GeeksforGeeks Graph Tutorial"
+        },
+        {
+          "icon": "🎬",
+          "title": "Graph Theory Algorithms (William Fiset)",
+          "description": "Comprehensive video series on graph algorithms",
+          "link": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P",
+          "linkText": "Graph Theory Playlist"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Basic Graph Problems",
+          "description": "Collection of fundamental graph challenges",
+          "link": "https://leetcode.com/tag/graph/",
+          "linkText": "Graph Problems"
+        }
+      ]
+    },
+    {
+      "title": "Days 106-120: Graph Traversal Algorithms",
+      "topics": [
+        "Depth-First Search (DFS) implementation and applications",
+        "Breadth-First Search (BFS) implementation and applications",
+        "Recursive vs iterative implementations",
+        "Connected components identification",
+        "Cycle detection algorithms",
+        "Bipartite graph checking",
+        "Graph coloring problems"
+      ],
+      "practice": [
+        "Implement DFS both recursively and using a stack",
+        "Implement BFS using a queue",
+        "Solve 3-4 traversal problems daily from company-tagged questions",
+        "Create utility methods for common graph operations",
+        "Build applications: maze solving, word ladder problems"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours implementing traversal algorithms",
+          "1 hour solving company-specific problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "DFS and BFS Tutorial",
+          "description": "Detailed explanation of graph traversals",
+          "link": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/",
+          "linkText": "GeeksforGeeks DFS/BFS Tutorials"
+        },
+        {
+          "icon": "🎬",
+          "title": "Graph Traversal Visualized",
+          "description": "Interactive visualizations of DFS and BFS",
+          "link": "https://visualgo.net/en/dfsbfs",
+          "linkText": "VisuAlgo - Graph Traversals"
+        },
+        {
+          "icon": "💻",
+          "title": "Graph Traversal Problems",
+          "description": "DFS/BFS focused challenges",
+          "link": "https://leetcode.com/tag/depth-first-search/",
+          "linkText": "DFS/BFS Problems"
+        }
+      ]
+    },
+    {
+      "title": "Days 121-135: Shortest Path Algorithms",
+      "topics": [
+        "Shortest path problem fundamentals",
+        "Dijkstra's algorithm implementation and analysis",
+        "Bellman-Ford algorithm for negative weights",
+        "A* search algorithm and heuristics",
+        "Floyd-Warshall algorithm for all-pairs shortest paths",
+        "Path reconstruction techniques",
+        "Applications in network routing"
+      ],
+      "practice": [
+        "Implement Dijkstra's algorithm using priority queue",
+        "Implement Bellman-Ford with negative cycle detection",
+        "Create a pathfinding visualizer",
+        "Solve 2-3 shortest path problems daily (Google/Amazon focus)",
+        "Compare algorithm performance with different graph structures"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours implementing algorithms",
+          "1 hour solving company-specific problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Shortest Path Algorithms",
+          "description": "Comprehensive guide on pathfinding",
+          "link": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/",
+          "linkText": "Shortest Path Tutorials"
+        },
+        {
+          "icon": "🎬",
+          "title": "Pathfinding Visualizations",
+          "description": "Interactive tool for visualizing algorithms",
+          "link": "https://qiao.github.io/PathFinding.js/visual/",
+          "linkText": "PathFinding.js"
+        },
+        {
+          "icon": "💻",
+          "title": "Shortest Path Problems",
+          "description": "Collection of pathfinding challenges",
+          "link": "https://leetcode.com/tag/shortest-path/",
+          "linkText": "Shortest Path Problems"
+        }
+      ]
+    },
+    {
+      "title": "Days 136-150: Minimum Spanning Trees & Advanced Graph Algorithms",
+      "topics": [
+        "Minimum spanning tree definition and properties",
+        "Prim's algorithm implementation and analysis",
+        "Kruskal's algorithm with Union-Find",
+        "Topological sorting for DAGs",
+        "Strongly connected components (Tarjan's algorithm)",
+        "Network flow: Ford-Fulkerson and Edmonds-Karp",
+        "Bipartite matching algorithms"
+      ],
+      "practice": [
+        "Implement Prim's algorithm with priority queue",
+        "Implement Kruskal's with Union-Find data structure",
+        "Create topological sort for course scheduling problems",
+        "Solve 2-3 advanced graph problems daily (Facebook/Google focus)",
+        "Build a network flow calculator"
+      ],
+      "timeCommitment": {
+        "total": "3-5 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "2-3 hours implementing algorithms",
+          "1 hour solving company-specific problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "MST and Advanced Graph Algorithms",
+          "description": "Comprehensive guide on advanced topics",
+          "link": "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/",
+          "linkText": "Advanced Graph Tutorials"
+        },
+        {
+          "icon": "🎬",
+          "title": "Advanced Graph Algorithms",
+          "description": "Video series on complex graph topics",
+          "link": "https://www.youtube.com/watch?v=tKwnms5iRBU",
+          "linkText": "Advanced Graph Videos"
+        },
+        {
+          "icon": "💻",
+          "title": "Topological Sort Problems",
+          "description": "Collection of scheduling challenges",
+          "link": "https://leetcode.com/tag/topological-sort/",
+          "linkText": "Topological Sort Problems"
+        }
+      ]
+    },
+    {
+      "title": "Days 151-165: Tree Algorithms",
+      "topics": [
+        "Binary tree fundamentals and terminology",
+        "Binary tree traversals: inorder, preorder, postorder",
+        "Level-order traversal and variations",
+        "Binary Search Trees (BST): properties and operations",
+        "Tree balancing concepts: AVL, Red-Black trees",
+        "Lowest Common Ancestor (LCA) algorithms",
+        "Tree serialization and deserialization"
+      ],
+      "practice": [
+        "Implement all traversal methods both recursively and iteratively",
+        "Create BST class with insertion, deletion, and search operations",
+        "Solve 3-4 tree problems daily (Amazon/Microsoft focus)",
+        "Build a tree visualizer tool",
+        "Practice tree problem-solving patterns"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours implementing tree algorithms",
+          "1 hour solving company-specific problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Tree Data Structures",
+          "description": "Comprehensive guide on tree algorithms",
+          "link": "https://www.geeksforgeeks.org/binary-tree-data-structure/",
+          "linkText": "Tree Structure Tutorials"
+        },
+        {
+          "icon": "🎬",
+          "title": "Tree Algorithms Playlist",
+          "description": "Detailed explanations of tree operations",
+          "link": "https://www.youtube.com/playlist?list=PLrmLmBdmIlpv_jNDXtJGYTPNQ2L1gdHxu",
+          "linkText": "Trees Playlist"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Tree Problems",
+          "description": "Collection of tree challenges",
+          "link": "https://leetcode.com/tag/tree/",
+          "linkText": "Tree Problems"
+        }
+      ]
+    },
+    {
+      "title": "Days 165-180: Advanced Tree Structures",
+      "topics": [
+        "Trie data structure for string operations",
+        "Segment trees for range queries",
+        "Fenwick trees (Binary Indexed Trees)",
+        "Interval trees for range overlaps",
+        "Quad trees and Octrees for spatial data",
+        "Huffman coding trees",
+        "Self-balancing tree implementations"
+      ],
+      "practice": [
+        "Build a Trie for autocomplete/word dictionary (Google focus)",
+        "Implement a segment tree for range sum/min/max queries",
+        "Create a Fenwick tree for efficient updates",
+        "Solve 2-3 advanced tree problems daily",
+        "Apply tree structures to real-world problems"
+      ],
+      "timeCommitment": {
+        "total": "3-5 hours",
+        "breakdown": [
+          "1 hour learning theory",
+          "2-3 hours implementing advanced structures",
+          "1 hour solving company-specific problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Advanced Tree Structures",
+          "description": "Guide on specialized tree types",
+          "link": "https://www.geeksforgeeks.org/trie-insert-and-search/",
+          "linkText": "Advanced Tree Tutorials"
+        },
+        {
+          "icon": "🎬",
+          "title": "Segment Trees Explained",
+          "description": "Video tutorial on range query structures",
+          "link": "https://www.youtube.com/watch?v=ZBHKZF5w4YU",
+          "linkText": "Segment Tree Video"
+        },
+        {
+          "icon": "💻",
+          "title": "Trie Problems",
+          "description": "Collection of string processing challenges",
+          "link": "https://leetcode.com/tag/trie/",
+          "linkText": "Trie Problems"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "title": "Phase 3: Advanced Dynamic Programming (Months 7-9)",
+  "description": "Master dynamic programming from foundations to advanced techniques with a progressive learning approach.",
+  "modules": [
+    {
+      "title": "Days 181-195: Dynamic Programming Foundations",
+      "topics": [
+        "Dynamic programming principles and methodology",
+        "Memoization vs. tabulation approaches",
+        "Top-down vs bottom-up implementations",
+        "Identifying DP problems and subproblems",
+        "State transitions and recurrence relations",
+        "Overlapping subproblems and optimal substructure",
+        "Time and space complexity analysis for DP"
+      ],
+      "practice": [
+        "Implement classic DP problems: Fibonacci, coin change",
+        "Solve both recursive+memoization and iterative versions",
+        "Identify and solve 2-3 1D DP problems daily",
+        "Practice explaining DP solutions clearly",
+        "Create a template for approaching DP problems"
+      ],
+      "timeCommitment": {
+        "total": "3-4 hours daily",
+        "breakdown": [
+          "1 hour learning theory",
+          "1-2 hours solving foundation problems",
+          "1 hour analyzing and optimizing solutions"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Dynamic Programming Guide",
+          "description": "Comprehensive tutorial on DP fundamentals",
+          "link": "https://www.geeksforgeeks.org/dynamic-programming/",
+          "linkText": "GeeksforGeeks DP Tutorial"
+        },
+        {
+          "icon": "🎬",
+          "title": "Dynamic Programming Patterns",
+          "description": "Video series on DP patterns and techniques",
+          "link": "https://www.youtube.com/watch?v=oBt53YbR9Kk",
+          "linkText": "DP Video Tutorial"
+        },
+        {
+          "icon": "💻",
+          "title": "Basic DP Problems",
+          "description": "Collection of foundation DP challenges",
+          "link": "https://leetcode.com/tag/dynamic-programming/",
+          "linkText": "DP Problems"
+        }
+      ]
+    },
+    {
+      "title": "Days 196-210: Intermediate DP & Common Patterns",
+      "topics": [
+        "2D dynamic programming problems",
+        "String-based DP: edit distance, LCS",
+        "Grid-based DP: paths, obstacle navigation",
+        "Knapsack problems and variations",
+        "State compression techniques",
+        "Interval-based DP problems"
+      ],
+      "practice": [
+        "Solve 2-3 2D DP problems daily",
+        "Implement string-based DP algorithms",
+        "Practice grid-based path problems",
+        "Solve variations of knapsack problems",
+        "Compare space-optimized vs. naive implementations"
+      ],
+      "timeCommitment": {
+        "total": "3-5 hours daily",
+        "breakdown": [
+          "1 hour studying pattern theory",
+          "2-3 hours solving intermediate problems",
+          "1 hour optimizing solutions"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Advanced DP Techniques",
+          "description": "Guide on complex DP patterns",
+          "link": "https://www.geeksforgeeks.org/category/dynamic-programming/",
+          "linkText": "Advanced DP Tutorials"
+        },
+        {
+          "icon": "🎬",
+          "title": "Dynamic Programming for Beginners by Errichto",
+          "description": "Step-by-step approach to learning dynamic programming",
+          "link": "https://www.youtube.com/watch?v=YBSt1jYwVfU",
+          "linkText": "DP for Beginners"
+        },
+        {
+          "icon": "🎬",
+          "title": "Dynamic Programming Patterns by Back To Back SWE",
+          "description": "Common patterns in dynamic programming interview questions",
+          "link": "https://www.youtube.com/playlist?list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI",
+          "linkText": "DP Patterns"
+        }
+      ]
+    },
+    {
+      "title": "Days 211-225: Advanced DP & Specialized Techniques",
+      "topics": [
+        "Multi-dimensional DP state design",
+        "DP on trees and graphs",
+        "Bitmask DP for combinatorial problems",
+        "Classic problems: Matrix Chain Multiplication",
+        "Longest Increasing Subsequence variations",
+        "State space reduction techniques"
+      ],
+      "practice": [
+        "Solve 2-3 advanced DP problems daily",
+        "Implement tree and graph DP solutions",
+        "Practice bitmask DP problems",
+        "Optimize solutions for space complexity",
+        "Create templates for common DP patterns"
+      ],
+      "timeCommitment": {
+        "total": "4-5 hours daily",
+        "breakdown": [
+          "1-2 hours studying advanced theory",
+          "2-3 hours solving complex problems",
+          "1 hour analyzing optimization techniques"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "🎬",
+          "title": "Advanced DP",
+          "description": "Video series on advanced DP problems",
+          "link": "https://www.youtube.com/watch?v=Sx9NNgInc3A",
+          "linkText": "Advanced DP Videos"
+        },
+        {
+          "icon": "💻",
+          "title": "LeetCode Hard DP Problems",
+          "description": "Collection of challenging DP questions",
+          "link": "https://leetcode.com/problemset/algorithms/?difficulty=Hard&topicSlugs=dynamic-programming",
+          "linkText": "Hard DP Problems"
+        },
+        {
+          "icon": "🎬",
+          "title": "DP on Trees by CodeNCode",
+          "description": "Specialized dynamic programming techniques for tree structures",
+          "link": "https://www.youtube.com/watch?v=p3aZT1VEOGg",
+          "linkText": "DP on Trees"
+        }
+      ]
+    },
+    {
+      "title": "Days 226-240: Advanced DP & Competitive Programming",
+      "topics": [
+        "DP optimizations for competitive programming",
+        "Divide and conquer DP",
+        "Convex hull optimization",
+        "Knuth's optimization",
+        "Advanced bitmask DP techniques",
+        "DP on broken profiles"
+      ],
+      "practice": [
+        "Solve 2-3 competitive programming DP problems daily",
+        "Participate in AtCoder DP contest",
+        "Implement optimization techniques",
+        "Analyze and optimize time complexity",
+        "Practice explaining complex DP solutions"
+      ],
+      "timeCommitment": {
+        "total": "4-6 hours daily",
+        "breakdown": [
+          "1-2 hours studying optimization techniques",
+          "3-4 hours solving competitive problems"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Algorithms (Sedgewick & Wayne)",
+          "description": "Advanced Dynamic Programming sections",
+          "link": "https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X",
+          "linkText": "Book Link"
+        },
+        {
+          "icon": "💻",
+          "title": "AtCoder DP Contest",
+          "description": "26 carefully selected DP problems with increasing difficulty",
+          "link": "https://atcoder.jp/contests/dp/tasks",
+          "linkText": "AtCoder DP Contest"
+        },
+        {
+          "icon": "🎬",
+          "title": "Dynamic Programming Playlist",
+          "description": "Comprehensive video tutorials on DP",
+          "link": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go",
+          "linkText": "Aditya Verma's DP Playlist"
+        },
+        {
+          "icon": "🎬",
+          "title": "Advanced DP Problems by William Lin",
+          "description": "Competitive programming approach to solving complex DP problems",
+          "link": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnszR6YSo1tQK2AdTCXyJqpQ",
+          "linkText": "Advanced DP Problems"
+        },
+        {
+          "icon": "🎬",
+          "title": "Bitmasking in DP by TECH DOSE",
+          "description": "Using bitmasks to optimize dynamic programming solutions",
+          "link": "https://www.youtube.com/watch?v=6sEFap7hIl4",
+          "linkText": "Bitmasking in DP"
+        }
+      ]
+    },
+    {
+      "title": "Days 241-255: Specialized DP & System Design Integration",
+      "topics": [
+        "Probabilistic DP",
+        "Expected value calculations using DP",
+        "Digit DP",
+        "Subsequence and subarray DP problems",
+        "DP in system design problems",
+        "Performance optimization for large-scale DP"
+      ],
+      "practice": [
+        "Solve 2-3 specialized DP problems daily",
+        "Implement memory-efficient DP solutions",
+        "Apply DP to system design challenges",
+        "Design DP solutions for real-world problems",
+        "Practice explaining time/space tradeoffs"
+      ],
+      "timeCommitment": {
+        "total": "4-6 hours daily",
+        "breakdown": [
+          "1-2 hours studying specialized techniques",
+          "2-3 hours solving complex problems",
+          "1 hour analyzing system design applications"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Competitive Programmer's Handbook",
+          "description": "Advanced DP techniques for competitive programming",
+          "link": "https://cses.fi/book/book.pdf",
+          "linkText": "CP Handbook"
+        },
+        {
+          "icon": "💻",
+          "title": "CSES Problem Set",
+          "description": "Collection of algorithm problems with many DP challenges",
+          "link": "https://cses.fi/problemset/",
+          "linkText": "CSES Problems"
+        },
+        {
+          "icon": "🎬",
+          "title": "Digit DP by CodeNCode",
+          "description": "Advanced technique for solving problems with digit constraints",
+          "link": "https://www.youtube.com/watch?v=heUFId6Qd1A",
+          "linkText": "Digit DP"
+        }
+      ]
+    },
+    {
+      "title": "Days 256-270: Advanced DP Mastery & Interview Preparation",
+      "topics": [
+        "Interview-focused DP problems",
+        "Explaining DP solutions in interview settings",
+        "Advanced DP problem-solving strategies",
+        "Optimizing DP solutions under time constraints",
+        "Combining DP with other algorithms",
+        "Practical applications in industry"
+      ],
+      "practice": [
+        "Mock interviews with DP problems",
+        "Solve 2-3 industry-relevant DP problems daily",
+        "Practice explaining solutions verbally",
+        "Create a reference sheet of DP patterns",
+        "Review and optimize previous solutions"
+      ],
+      "timeCommitment": {
+        "total": "4-6 hours daily",
+        "breakdown": [
+          "1-2 hours practicing interview explanations",
+          "2-3 hours solving advanced problems",
+          "1 hour reviewing and refining solutions"
+        ]
+      },
+      "resources": [
+        {
+          "icon": "📚",
+          "title": "Elements of Programming Interviews",
+          "description": "DP problems commonly asked in interviews",
+          "link": "https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836",
+          "linkText": "EPI Book"
+        },
+        {
+          "icon": "💻",
+          "title": "InterviewBit DP Section",
+          "description": "Curated list of interview-focused DP problems",
+          "link": "https://www.interviewbit.com/courses/programming/topics/dynamic-programming/",
+          "linkText": "InterviewBit DP"
+        },
+        {
+          "icon": "🎬",
+          "title": "DP Problem Solving Strategies",
+          "description": "Techniques for approaching difficult DP problems",
+          "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY",
+          "linkText": "Take U Forward DP Series"
+        }
+      ]
+    }
+  ]
+}
